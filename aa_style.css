@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "PixelifySans";
+    src: url("Font/PixelifySans.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PixelMono";
+    src: url("Font/7-12-serif.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SplineSansMono";
+    src: url("Font/SplineSansMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SplineSansMonoSemiBold";
+    src: url("Font/SplineSansMono-SemiBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dream";
+    src: url("Font/YouSheYuFeiTeJianKangTi.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body{
+    overflow-x: hidden;
+}
+
+#menu_bar {
+    background-color: rgb(0, 0, 0, 0.8);
+    position: fixed;
+    vertical-align: middle;
+}
+
+.menu1 {
+    font-family: "PixelifySans";
+    background: none;
+    border-style: none;
+    color: rgb(227, 227, 227);
+    font-size:130%;
+    height: 60px;
+    width: 100%;
+}
+
+.menu2 {
+    font-family: "PixelifySans";
+    background: none;
+    border-style: none;
+    color: white;
+    font-size: 110%;
+    height: 60px;
+    width: 80%;
+}
+
+.menu1:hover {
+    background-color: rgb(255, 255, 255, 0.9);
+    color: rgb(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+.menu2:hover {
+    background-color: rgb(255, 255, 255, 0.9);
+    color: rgb(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+.introName {
+    font-family: "PixelMono";
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.introPara {
+    font-family: "SplineSansMono";
+    font-size: medium;
+    margin-top: 6%;
+    line-height: 1.5;
+}
+
+b {
+    font-family: "SplineSansMonoSemiBold";
+}
+
+.a1 {
+    font-family: "PixelifySans";
+    font-size: large;
+    text-decoration: none;
+    color: rgb(21, 168, 168);
+}
+
+.a1:hover {
+    font-weight: bolder;
+}
+
+.a2{
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+    cursor: default;
+    font-family: "PixelMono";
+    font-size: x-large;
+}
+
+.a2:hover {
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.title1{
+    font-family: "PixelMono";
+}
+
+.nav-link{
+    font-family: "SplineSansMono";
+    background-color: rgb(235, 235, 235) !important;
+    color: black !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    width: 108% !important;
+}
+
+.nav-link.active{
+    font-family: "SplineSansMono";
+    color:  rgb(255, 255, 255, 0.9) !important;
+    background-color: rgb(0, 0, 0, 0.8) !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#pills-tabContent{
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.skillContent{
+    font-family: "SplineSansMono";
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 10%;
+    margin-bottom: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+}
+
+#workSec{
+    background-color: rgb(235, 235, 235);
+    overflow-y: scroll;
+    overflow-x: inherit;
+}
+
+.workComp{
+    font-family: "SplineSansMonoSemiBold";
+    font-size: medium;
+    margin-top: 1.5%;
+    width: 100%;
+}
+
+summary{
+    list-style: None;
+    color:rgb(21, 168, 168);
+}
+
+summary:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(16, 133, 133);
+    text-shadow: 0.2px;
+}
+
+.workTitle{
+    font-family: "SplineSansMono";
+    font-size: 100%;
+}
+
+.workDetail{
+    margin-bottom: 3%;
+}
+
+.workItem{
+    font-family: 'Arial';
+    font-size: 100%;
+    text-align: left;
+    width: 100%;
+    line-height:100%
+}
+
+.contact_link{
+    font-family: "SplineSansMono";
+    font-size: 100%;
+    text-decoration: none;
+    color:rgb(21, 168, 168);
+}
+
+.contact_link:hover{
+    color:rgb(0, 0, 0, 0.8);
+}

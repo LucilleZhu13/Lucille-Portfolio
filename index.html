@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiangyue Zhu's Portfolio</title>
+    <link rel="stylesheet" href="aa_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="overflow-x: hidden">
+    <div class="container-fluid text-center align-items-center" id = "menu_bar">
+        <div class="row align-items-center" id = "menu_list" style="height: 100%;">
+            <div class="col" style="height: 100%; padding: 0;"><a href="index.html"><button class="menu1">Home</button></a></div>
+            <div class="col"></div>
+            <div class="col-6" style="height: 100%;">
+                <div class="row align-items-center" style="height: 100%;">
+                    <div class="col" style="height: 100%;"><a href="gallery.html"><button class="menu2">Gallery</button></a></div>
+                    <div class="col" style="height: 100%;"><a href="project.html"><button class="menu2">Projects</button></a></div>
+                    <div class="col" style="height: 100%;"><a href="note.html"><button class="menu2">Notes</button></a></div>
+                </div>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="height: 10%; padding: 0;">
+        <div class="row" style="height: 100%;">
+            <div class="col-5" style="padding: 0;">
+                <img class="img-fluid" src="images/lucille_pic.JPG"/>
+            </div>
+            <div class="col" style="margin-top: 8%; margin-left: 3%; margin-right: 2%;">
+                <h1 class="introName">Hello!</br>I'm Jiangyue Zhu</h1>
+                <p class="introPara">
+                    I'm a third-year undergraduate student at <b>Georgia Tech</b> majoring in <b>Computational Media</b>.</br>
+        
+                    </br>My current focus are <b>AI</b> and <b>interactive design</b> which I work on combining to create better <b>HCI/HAI</b> experience.</br>
+        
+                    </br>In my free time, I enjoy drawing, designing, coding, playing badminton, and traveling.</br>
+                    
+                    </br>You can find my artworks under <a href="gallery.html" class="a1">Gallery</a>; the projects I've worked on under <a href="project.html" class="a1">Projects</a>; and my study notes under <a href="note.html" class="a1">Notes</a>.
+                </p>
+                <div class="guide1" style="margin-top: 13%; text-align: center;" >
+                    <a class="a2" onclick="jumptoMore()"><p>learn more about me↓</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="more" style="margin-top: 8%; margin-left: 10%; padding: 0; width: 60%;">
+        <div class="row" style="height: 100%;">
+            <h1 class="title1">Skills</h1>
+        </div>
+        <div>
+            <ul class="nav nav-pills mb-9" id="pills-tab" role="tablist" style="width: 100%;">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Programming</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Software</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Language</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent" style="width: 100%;">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col text-center"><div class="skillContent">Java</div></div>
+                        <div class="col text-center"><div class="skillContent">Python</div></div>
+                        <div class="col text-center"><div class="skillContent">C</div></div>
+                        <div class="col text-center"><div class="skillContent">HTML</div></div>
+                    </div>
+                    <div class="row align-items-center" style="height: 100%;" >
+                        <div class="col text-center"><div class="skillContent">CSS</div></div>
+                        <div class="col text-center"><div class="skillContent">JavaScript</div></div>
+                        <div class="col text-center"><div class="skillContent">LaTeX</div></div>
+                        <div class="col text-center"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col text-center"><div class="skillContent">Figma</div></div>
+                        <div class="col text-center"><div class="skillContent">Illustrator</div></div>
+                        <div class="col text-center"><div class="skillContent">Android Studio</div></div>
+                        <div class="col text-center"><div class="skillContent">Blender</div></div>
+                    </div>
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col text-center"><div class="skillContent">Unity</div></div>
+                        <div class="col text-center"><div class="skillContent">Photoshop</div></div>
+                        <div class="col text-center"></div>
+                        <div class="col text-center"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col text-center"><div class="skillContent">Front-end</div></div>
+                        <div class="col text-center"><div class="skillContent">UI/UX</div></div>
+                        <div class="col text-center"><div class="skillContent">Website</div></div>
+                        <div class="col text-center"><div class="skillContent">2D/3D Modelling</div></div>
+                    </div>
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col text-center"><div class="skillContent">Experiment</div></div>
+                        <div class="col text-center"><div class="skillContent"></div></div>
+                        <div class="col text-center"></div>
+                        <div class="col text-center"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col text-center"><div class="skillContent">English</div></div>
+                        <div class="col text-center"><div class="skillContent"></div></div>
+                        <div class="col text-center"><div class="skillContent"></div></div>
+                        <div class="col text-center"><div class="skillContent"></div></div>
+                    </div>
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col text-center"><div class="skillContent">Chinese</div></div>
+                        <div class="col text-center"><div class="skillContent"></div></div>
+                        <div class="col text-center"></div>
+                        <div class="col text-center"></div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 8%; margin-right: 10%; width: 60%; ; padding: 0;">
+        <div class="row text-end" style="height: 100%;">
+            <h1 class="title1">Work Experience</h1>
+        </div>
+
+        <div class="container-fluid" id="workSec">
+            <p class="workComp">Georgia Tech College of Computing - Atlanta, GA</p>
+            <details open = "true">
+                <summary>
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col-9 text-start"><p class="workTitle">Senior Teaching Assistant | CS 3510 Dsgn&Analysis-Algorithms</p></div>
+                        <div class="col text-end"><p class="workTitle">08/2024 - Present</p></div>
+                    </div>
+                </summary>
+                <ul class="workDetail">
+                    <li><p class="workItem">Lead a team of 23 Teaching Assistants with 4 senior TAs under one professor for a class of 600 students</p></li>
+                    <li><p class="workItem">Provide feedback and assist with homework and exams creation using LaTeX</p></li>
+                    <li><p class="workItem">Effectively graded homework and exams every week</p></li>
+                    <li><p class="workItem">Conduct 4 hours weekly office hours and help more than 50 students with course-related questions</p></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col-9 text-start"><p class="workTitle">Research Assistant | Dr.Brian Magerko</p></div>
+                        <div class="col text-end"><p class="workTitle">01/2024 - Present</p></div>
+                    </div>
+                </summary>
+                <ul class="workDetail">
+                    <li><p class="workItem">Currently working on individual project on raising generative AI literacy in higher education</p></li>
+                    <li><p class="workItem">Conducted literature reviews on human-AI interactions, AI literacy, AI misconception, and prompt engineering</p></li>
+                    <li><p class="workItem">Collaborated with PhD students to build onboarding tutorials for AI, and design experiments on human-AI interactions</p></li>
+                    <li><p class="workItem">Obtained IRB certification to ensure ethical compliance in research involving human subjects</p></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>
+                    <div class="row align-items-center workSum" style="height: 100%;">
+                        <div class="col-9 text-start"><p class="workTitle">Head Teaching Assistant | CS 2050 Discrete Math</p></div>
+                        <div class="col text-end"><p class="workTitle">05/2024 - 08/2024</p></div>
+                    </div>
+                </summary>
+                <ul class="workDetail">
+                    <li><p class="workItem">Lead a team of 5 Teaching Assistants for a class of 100 students under 2 professors</p></li>
+                    <li><p class="workItem">Conduct weekly meetings, assign grading tasks, and coordinate TA schedules</p></li>
+                    <li><p class="workItem">Host weekly review recitations for students to reinforce course concepts and facilitate understanding</p></li>
+                    <li><p class="workItem">Collaborate with faculty in creating homework assignments and exams using LaTeX.</p></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>
+                    <div class="row align-items-center workSum" style="height: 100%;">
+                        <div class="col-9 text-start"><p class="workTitle">Undergraduate Teaching Assistant | CS 2050 Discrete Math</p></div>
+                        <div class="col text-end"><p class="workTitle">08/2023 - 05/2024</p></div>
+                    </div>
+                </summary>
+                <ul class="workDetail">
+                    <li><p class="workItem">Conduct 4 hours weekly office hours and help more than 50 students with course-related questions</p></li>
+                    <li><p class="workItem">Effectively graded homework and exams every week</p></li>
+                    <li><p class="workItem">Created original study notes to help students understand and review</p></li>
+                    <li><p class="workItem">Attended FERPA training classes, UTA workshops, and TA meetings to stay up to date on working progress</p></li>
+                </ul>
+            </details>
+
+            <p class="workComp">United Information Technology Co. - Shenzhen, China</p>
+            <details>
+                <summary>
+                    <div class="row align-items-center" style="height: 100%;">
+                        <div class="col-9 text-start"><p class="workTitle">Web Developer Intern</p></div>
+                        <div class="col text-end"><p class="workTitle">05/2023 - 08/2023</p></div>
+                    </div>
+                </summary>
+                <ul class="workDetail">
+                    <li><p class="workItem">Developed user interfaces with modern JavaScript frameworks, HTML5, and CSS3 for 3 existing websites</p></li>
+                    <li><p class="workItem">Used interaction design tools like Figma and Procreate to design websites</p></li>
+                    <li><p class="workItem">Collaborated with project managers and development team to brainstorm new ideas for new digital design product</p></li>
+                    <li><p class="workItem">Worked closely with developers on creating new codes to improve both aesthetics and practicality</p></li>
+                </ul>
+            </details>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 8%; padding: 0;">
+        <div class="row align-items-center">
+            <div class="col-1 text-end"><img class="img-fluid" src="images/linkedin_icon.png"/></div>
+            <div class="col-3 text-start"><a class="contact_link" href="https://www.linkedin.com/in/jiangyue-lucille-zhu/">Jiangyue (Lucille) Zhu</a></div>
+            <div class="col-1 text-end"><img class="img-fluid" src="images/email_icon.png"/></div>
+            <div class="col-3 text-start"><a class="contact_link" href="mailto: lucillezhu13@gmail.com">lucillezhu13@gmail.com</a></div>
+            <div class="col-1 text-end"><img class="img-fluid" src="images/insta_icon.png"/></div>
+            <div class="col-3 text-start"><a class="contact_link" href="https://www.instagram.com/lucille.zhu/">@lucille.zhu</a></div>
+        </div>
+        
+    </div>
+
+    <div class="container-fluid" style="margin-top: 8%; padding: 0;">
+        <img class="img-fluid" src = "images/footnote.gif"/>
+    </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
