@@ -41,6 +41,7 @@
     background-color: rgb(0, 0, 0, 0.8);
     position: fixed;
     vertical-align: middle;
+    z-index: 2;
 }
 
 .menu1 {
@@ -125,7 +126,7 @@ b {
     color: black !important;
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    width: 108% !important;
+    width: 100% !important;
 }
 
 .nav-link.active{
@@ -142,6 +143,7 @@ b {
 
 .skillContent{
     font-family: "SplineSansMono";
+    font-size: medium;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     margin-top: 10%;
@@ -165,7 +167,6 @@ b {
 }
 
 summary{
-    list-style: None;
     color:rgb(21, 168, 168);
 }
 
@@ -186,11 +187,11 @@ summary:hover{
 }
 
 .workItem{
-    font-family: 'Arial';
+    font-family: Arial;
     font-size: 100%;
     text-align: left;
     width: 100%;
-    line-height:100%
+    line-height: 100%
 }
 
 .contact_link{
@@ -203,3 +204,36 @@ summary:hover{
 .contact_link:hover{
     color:rgb(0, 0, 0, 0.8);
 }
+
+.navBar{
+    font-family: "SplineSansMono";
+    font-size: medium;
+    text-decoration: none;
+}
+
+.navBar.active{
+    font-family: "SplineSansMono";
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.subnavBar{
+    font-family: "SplineSansMono";
+    font-size: small;
+    text-decoration: none;
+}
+
+.subnavBar.active{
+    font-family: "SplineSansMono";
+    font-size: small;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.card{
+    z-index: 1;
+}
+
