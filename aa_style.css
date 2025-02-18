@@ -117,7 +117,8 @@ b {
 }
 
 .title1{
-    font-family: "PixelMono";
+    font-family: "PixelifySans";
+    font-size: xx-large;
 }
 
 .nav-link{
@@ -209,6 +210,7 @@ summary:hover{
     font-family: "SplineSansMono";
     font-size: medium;
     text-decoration: none;
+    color: rgb(0, 0, 0, 0.8);
 }
 
 .navBar.active{
@@ -223,6 +225,7 @@ summary:hover{
     font-family: "SplineSansMono";
     font-size: small;
     text-decoration: none;
+    color: rgb(0, 0, 0, 0.8);
 }
 
 .subnavBar.active{
@@ -237,3 +240,35 @@ summary:hover{
     z-index: 1;
 }
 
+.card-title{
+    font-family: "SplineSansMono";
+    font-size: large;
+    font-weight: bolder;
+}
+
+.btn{
+    font-family: "SplineSansMono" !important;
+    font-size: medium !important;
+    color: rgb(0, 0, 0, 0.8) !important;
+    background-color: rgb(235, 235, 235) !important;
+    border: solid !important;
+}
+
+
+.btn:hover{
+    font-family: "SplineSansMono" !important;
+    font-size: medium !important;
+    background-color: rgb(0, 0, 0, 0.8) !important;
+    color: rgb(235, 235, 235) !important;
+}
+
+.modal-title{
+    font-family: "SplineSansMono" !important;
+    font-weight: bolder;
+}
+
+.modal-title2{
+    font-family: "SplineSansMono";
+    font-size: medium;
+    font-weight: bold;
+}
