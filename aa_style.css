@@ -283,3 +283,44 @@ summary:hover{
     font-size: medium;
     font-weight: bold;
 }
+
+
+.video-thumb{
+    position: relative;
+  }
+  
+  .play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    border: none;
+    padding: 0;
+    background: transparent;
+  
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 2;
+  }
+  
+  /* optional: make the play icon a consistent size */
+  .play-btn img{
+    width: 64px;
+    height: 64px;
+    display: block;
+  }
+  
+  /* show on hover */
+  .video-card:hover .play-btn,
+  .video-thumb:hover .play-btn{
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  /* optional: nice hover affordance */
+  .play-btn:hover{
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  
